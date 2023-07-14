@@ -1,0 +1,155 @@
+/*------------NavBar------------*/
+
+@media (max-width: 580px) {
+    .navbar-brand img {
+        max-width: 3rem !important;
+    }
+    .p-6 {
+        padding: 5rem 0 1.5rem !important;
+    }
+}
+
+@media (max-width: 450px) {
+    #portfolio .card {
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar .nav-link {
+        color: var(--link-color) !important;
+    }
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 2;
+        background: var(--nav-active);
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav {
+        margin-top: 15px;
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 25px;
+    }
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0;
+    }
+}
+
+
+/*--------------Slide---------------*/
+
+@media (max-width: 991px) {
+    .description h1 {
+        font-size: 2rem !important;
+    }
+}
+
+@media (max-width: 950px) {
+    .slide .description {
+        text-align: center;
+    }
+    .description h1 {
+        font-size: 2.5rem !important;
+    }
+    ul.social {
+        justify-content: center;
+    }
+}
+
+
+/*--------------About---------------*/
+
+@media (max-width: 991px) {
+    #about .col-5 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 366px) {
+    .nav-pills {
+        justify-content: space-evenly;
+    }
+    .nav-pills li {
+        margin-bottom: 12px;
+    }
+}
+
+
+/*----------Services------*/
+
+@media (max-width:766px) {
+    #features .container {
+        max-width: 100%;
+    }
+}
+
+
+/*--------------Portfolio---------------*/
+
+@media (max-width: 760px) {
+    #portfolio .col-4 {
+        width: 100%;
+    }
+    #resume .col-4 {
+        width: 100%;
+    }
+    .resume-footer p {
+        font-size: .85rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .heading .title {
+        font-size: 1.7rem;
+    }
+}
+
+
+/*-----------------Back Card------------*/
+
+@media (max-width: 360px) {
+    .btns {
+        flex-direction: column;
+    }
+    .btns a {
+        margin-bottom: 7px;
+        padding: 0.7rem
+    }
+    .back p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .content_about p {
+        font-size: .84em;
+    }
+    .list_about_desc li {
+        font-size: .85em;
+    }
+}
+
+
+/*Resume*/
+
+@media (max-width: 780px) {
+    .resume-footer p {
+        font-size: .85rem !important;
+    }
+    .resume-head .content p {
+        font-size: 12.5px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .resume-footer p {
+        font-size: .8rem !important;
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "projects": [{
+            "id": 1,
+            "title": "I SEE Y",
+            "model": "i_see_you",
+            "cat": "Health & Fitness",
+            "desc": "It is a medical application concerned with preserving medical information about patients to keep them from loss or damage",
+            "img": "./assets/iseey.webp",
+            "img_back": "./assets/see_back.webp",
+            "git_link": "https://github.com/MOHAMMEDadel12",
+            "link": "https://play.google.com/store/apps/details?id=com.metawan.isy_app&fbclid=IwAR0YvcdIOPQa0qsdWhKojpVcuIkNyXHV9GfV1Tg07gtIMPMHhXE27MUM1ns"
+        },
+        {
+            "id": 2,
+            "title": "Itrax",
+            "model": "itrax",
+            "cat": "Education",
+            "desc": "Itrax is a leading destination for online courses. Get the app to explore our expansive library of thousands of topics with Development, Python, Java, Business, Marketing, SEO, SEM, Drawing, Photography, and much more.",
+            "img": "./assets/itrax.webp",
+            "img_back": "./assets/quiz_back.webp",
+            "git_link": "https://github.com/MOHAMMEDadel12",
+            "link": "https://play.google.com/store/apps/details?id=com.itrax.lms&fbclid=IwAR3rLiZxwANNJ5QcEcEn9O8VBwWYgDojbmJn1hM4jfjw1Eya2LrSljYfOt8"
+
+        },
+        {
+            "id": 3,
+            "title": "QUIZX",
+            "model": "quizx",
+            "cat": "Education",
+            "desc": "You create a quiz and give it a name. Then you can add questions and their answers to the quiz. When you're done you can take the quiz in normal or random order.",
+            "img": "./assets/quiz.webp",
+            "git_link": "https://github.com/MOHAMMEDadel12",
+            "link": "https://play.google.com/store/apps/details?id=com.itrax.quizaxapp&fbclid=IwAR38VlQU_wqE2x7A8Nz3y0UYjQfJgHF2irqpLCCv-5yY5fYGhBIwGi55oOQ"
+        },
+        {
+            "id": 4,
+            "title": "Fel Ghorba",
+            "model": "fel_ghorba",
+            "cat": "Travel (Web View)",
+            "desc": "Are You love travel..? , FeLghorba has something for everyone. We have created communities in different countries for you to connect with, whether you are living there or not.",
+            "img": "./assets/gorba.webp",
+            "git_link": "https://github.com/MOHAMMEDadel12",
+            "link": "https://play.google.com/store/apps/details?id=com.ghorba.felghorba_app&fbclid=IwAR1pOmLa__P8CQBes0NXRcOl467Ik76vu7gbJ3oh1VhMtundOwxoQ5j28xU"
+        },
+        {
+            "id": 5,
+            "title": "To-do list",
+            "model": "list",
+            "cat": "career",
+            "desc": "Easy to use To-Do Remember everything and get things done!, done by firebase and have features | User friendly task management , Grouping tasks in handy task lists , Smart home screen widgets show instantly what to do , Intelligent notifications.",
+            "img": "./assets/todo.webp",
+            "git_link": "https://github.com/MOHAMMEDadel12",
+            "link": ""
+        },
+        {
+            "id": 6,
+            "title": "Sky News",
+            "model": "sky",
+            "cat": "News",
+            "desc": "The Sky News app brings you news from the BBC and our global network of journalists. The app also offers the BBC World Service Radio streamed live, social features and personalisation so you can re-order the news categories to suit your interests.",
+            "img": "./assets/sky.webp",
+            "git_link": "https://github.com/MOHAMMEDadel12",
+            "link": ""
+        }
+    ],
+
+    "skills": [{
+            "title": "Flutter Dart",
+            "progress": "90%"
+        },
+        {
+            "title": "Git / Github",
+            "progress": "90%"
+        }, {
+            "title": "Android Development (Kotlin, Java)",
+            "progress": "75%"
+        },
+        {
+            "title": "Apple (IOS X Yosemite to Mojave)",
+            "progress": "80%"
+        }, {
+            "title": "Postman",
+            "progress": "75%"
+        }, { "title": "Problems solving and decision making", "progress": "85%" }
+    ],
+
+    "features": [{
+            "title": "App Development",
+            "desc": "Create exciting applications with Flutter, many of which are available on Google Play",
+            "icon": "uil-mobile-android"
+        },
+        {
+            "title": "Flutter Instructor ",
+            "desc": "I am a mobile application Instructor in GDSC Al-Azhar since time ago",
+            "icon": "uil-users-alt"
+        },
+        {
+            "title": "Best Instructor",
+            "desc": "I award the best instructor in flutter mobile development in GDSC Al-Azhar.",
+            "icon": "uil-award"
+        },
+        {
+            "title": "Ui/Ux Design",
+            "desc": "I award the best instructor in flutter mobile development in GDSC Al-Azhar.",
+            "icon": "uil-adobe"
+        },
+        {
+            "title": "Graphics Design",
+            "desc": "Create brochures and ads to promote products or services, more animation design",
+            "icon": "uil-horizontal-align-center"
+        },
+        {
+            "title": "Web View App",
+            "desc": "I make a web view app by flutter, I do this by application Fel Gorba",
+            "icon": "uil-desktop"
+        }
+    ],
+
+    "resume": [{
+            "main_title": "Education",
+            "cat": " Zagazig University",
+            "dep": "Computer science department",
+            "desc": "I am in Faculty of computer science and informatics , Zagazig University , CS department",
+            "date": "Aug 2019 – Current ",
+            "icon": "uil-graduation-cap"
+        },
+        {
+            "main_title": "WORK EXPERIENCE",
+            "cat": " Flutter developer",
+            "dep": "MetaWan",
+            "desc": "worked with the teamwork in developing the application for the company ' ISY ', and the application was uploaded to Google play ",
+            "date": "Oct 2021 – Current",
+            "icon": " uil-mobile-android"
+        },
+        {
+            "main_title": "",
+            "cat": "Flutter Instructor ",
+            "dep": " GDSC Al Azhar",
+            "desc": "I am a mobile application Instructor and teach Students courses how to make a mobile application, and get the best instructor",
+            "date": "Aug 2021 – Current",
+            "icon": "uil-graduation-cap"
+        },
+        {
+            "main_title": "",
+            "cat": "Itrax",
+            "dep": " Freelancer",
+            "desc": "I worked on the Itrax LMS mobile app and developed some of features, made some changes at the request of the customer and it uploaded to Google play and app store",
+            "date": "Dec 2021 – Feb 2022",
+            "icon": "uil-google-play"
+        }
+    ]
+
+}
