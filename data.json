@@ -1,5 +1,15 @@
 {
     "projects": [{
+            "id": 22,
+            "title": "Scan For Solution",
+            "model": "scan_for_solution",
+            "cat": "Science",
+            "desc": "SQ” Scan For Solution is a cross-platform mobile application used to show the best answer of choices shown in the question,we want the users to use the app all the time so I put chatGPT in-app to give the user all the choices to answer his question",
+            "img": "./assets/scan.png",
+            "img_back": "./assets/see_back.webp",
+            "git_link": "https://github.com/MOHAMMEDadel12"
+        },
+        {
             "id": 1,
             "title": "I SEE Y",
             "model": "i_see_you",
@@ -41,16 +51,6 @@
             "img": "./assets/gorba.webp",
             "git_link": "https://github.com/MOHAMMEDadel12",
             "link": "https://play.google.com/store/apps/details?id=com.ghorba.felghorba_app&fbclid=IwAR1pOmLa__P8CQBes0NXRcOl467Ik76vu7gbJ3oh1VhMtundOwxoQ5j28xU"
-        },
-        {
-            "id": 5,
-            "title": "To-do list",
-            "model": "list",
-            "cat": "career",
-            "desc": "Easy to use To-Do Remember everything and get things done!, done by firebase and have features | User friendly task management , Grouping tasks in handy task lists , Smart home screen widgets show instantly what to do , Intelligent notifications.",
-            "img": "./assets/todo.webp",
-            "git_link": "https://github.com/MOHAMMEDadel12",
-            "link": ""
         },
         {
             "id": 6,
