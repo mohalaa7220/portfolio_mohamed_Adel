@@ -76,6 +76,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background: var(--color-primary);
+    border-radius: 10px;
 }
 
 
@@ -97,7 +98,8 @@ body {
     animation: navActive 0.5s linear;
     z-index: 22;
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    -webkit-box-shadow: 0 10px 50px 0 rgb(46 56 220 / 20%);
+    box-shadow: 0 10px 50px 0 rgb(46 56 220 / 20%);
     margin-top: 0 !important;
 }
 
@@ -129,7 +131,7 @@ body {
 }
 
 .navbar-brand img {
-    max-width: 4.5rem;
+    max-width: 4rem;
     height: auto;
 }
 
@@ -230,6 +232,7 @@ li.nav-item:hover .nav-link {
 
 .slide .img {
     position: relative;
+    text-align: center;
 }
 
 .slide img {
@@ -291,7 +294,6 @@ ul.social a {
 }
 
 ul.social li a:hover {
-    transform: scale(1.15) translateY(-7px);
     background: transparent;
     color: #fff;
 }
@@ -317,7 +319,7 @@ ul.social .whats:hover {
 }
 
 ul.social .insta:hover {
-    background-color: #f63edd;
+    background-color: #9b1389;
     color: #ffffff;
 }
 
@@ -355,21 +357,16 @@ ul.social .insta:hover {
     position: absolute;
     content: "";
     height: 100%;
-    width: 100%;
+    width: 0%;
     top: 0;
     left: 0;
-    right: 0;
     z-index: -1;
     background: var(--color-primary);
     transition: all 0.3s linear;
-    transform: scale(0);
-    transform-origin: top center;
 }
 
 .download:hover:after {
-    top: auto;
-    bottom: 0;
-    transform: scale(1);
+    width: 100%;
 }
 
 
@@ -384,6 +381,11 @@ ul.social .insta:hover {
 
 .content {
     margin-top: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .content h3 {
@@ -394,9 +396,10 @@ ul.social .insta:hover {
 
 p.description {
     line-height: 1.7;
-    font-size: 15px;
+    font-size: .9rem;
     color: var(--p-color);
-    margin-top: 21px;
+    margin-top: 12px;
+    margin-bottom: 0;
 }
 
 #features .card:hover .uil,

@@ -81,7 +81,10 @@
         }, {
             "title": "Postman",
             "progress": "75%"
-        }, { "title": "Problems solving and decision making", "progress": "85%" }
+        }, {
+            "title": "Problems solving and decision making",
+            "progress": "85%"
+        }
     ],
 
     "features": [{
@@ -121,11 +124,28 @@
             "cat": " Zagazig University",
             "dep": "Computer science department",
             "desc": "I am in Faculty of computer science and informatics , Zagazig University , CS department",
-            "date": "Aug 2019 – Current ",
+            "date": "Aug 2019 – 2023 ",
             "icon": "uil-graduation-cap"
         },
+
         {
             "main_title": "WORK EXPERIENCE",
+            "cat": "AFFSQUARE ",
+            "dep": " Full Time",
+            "desc": "I worked on affsqure company full time of flutter developer",
+            "date": "NOV 2022 – Current ",
+            "icon": "uil-google-play"
+        },
+        {
+            "main_title": "",
+            "cat": "Itrax",
+            "dep": " Freelancer",
+            "desc": "I worked on the Itrax LMS mobile app and developed some of features, made some changes at the request of the customer and it uploaded to Google play and app store",
+            "date": "Dec 2021 – Feb 2022",
+            "icon": "uil-google-play"
+        },
+        {
+            "main_title": "",
             "cat": " Flutter developer",
             "dep": "MetaWan",
             "desc": "worked with the teamwork in developing the application for the company ' ISY ', and the application was uploaded to Google play ",
@@ -139,14 +159,6 @@
             "desc": "I am a mobile application Instructor and teach Students courses how to make a mobile application, and get the best instructor",
             "date": "Aug 2021 – Current",
             "icon": "uil-graduation-cap"
-        },
-        {
-            "main_title": "",
-            "cat": "Itrax",
-            "dep": " Freelancer",
-            "desc": "I worked on the Itrax LMS mobile app and developed some of features, made some changes at the request of the customer and it uploaded to Google play and app store",
-            "date": "Dec 2021 – Feb 2022",
-            "icon": "uil-google-play"
         }
     ]
 

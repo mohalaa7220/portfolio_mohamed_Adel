@@ -103,11 +103,11 @@ const projects = data.projects
                             ${
                               item.link !== ""
                                 ? `<div class="btns">
-                                        <a href="${item.git_link}" target="_blank">View Github</a>
-                                        <a href="${item.link}" class="google" target="_blank">View Google Play</a>
+                                        <a href="${item.git_link}" target="_blank"> Github</a>
+                                        <a href="${item.link}" class="google" target="_blank"> Google Play</a>
                                 </div>`
                                 : `<div class="btns">
-                                        <a href="${item.git_link}" target="_blank">View Github</a>
+                                        <a href="${item.git_link}" target="_blank"> Github</a>
                                   </div>`
                             }
                           </div>
